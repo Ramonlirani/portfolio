@@ -11,7 +11,7 @@ export default function HomeHero() {
 
    return (
       <section className="container mx-auto mt-3 flex max-h-screen min-h-screen flex-col items-center justify-around px-5 md:px-1">
-         <div className="z-50 flex flex-col items-center space-y-5 sm:space-y-10">
+         <div className="z-50 flex flex-col items-center lg:space-y-10 space-y-5">
             <img
                src="https://media.licdn.com/dms/image/D4D03AQHAnwoUnM_0xA/profile-displayphoto-shrink_800_800/0/1702350427487?e=1707955200&v=beta&t=cVWsIr5jlVwlEpIN9HLGFb-bRJIyCnnXioEuPDluaD0"
                className="w-52 object-contain lg:w-64 rounded-full"
@@ -47,13 +47,13 @@ export default function HomeHero() {
             }`}
             onClick={jumpToDown}
          >
-            <div className="mouse d border-2 border-solid border-primary-700 dark:border-primary-500">
-               <div className="mouse-in bg-primary-700 dark:bg-primary-500" />
+            <div className="mouse d border-2 border-solid border-primary-500 dark:border-primary-500">
+               <div className="mouse-in bg-primary-500 dark:bg-primary-500" />
             </div>
             <div className="mt-3">
-               <span className="down-arrow-1 border-r-2 border-b-2 border-solid border-primary-700 dark:border-primary-500" />
-               <span className="down-arrow-2 border-r-2 border-b-2 border-solid border-primary-700 dark:border-primary-500" />
-               <span className="down-arrow-3 border-r-2 border-b-2 border-solid border-primary-700 dark:border-primary-500" />
+               <span className="down-arrow-1 border-r-2 border-b-2 border-solid border-primary-500 dark:border-primary-500" />
+               <span className="down-arrow-2 border-r-2 border-b-2 border-solid border-primary-500 dark:border-primary-500" />
+               <span className="down-arrow-3 border-r-2 border-b-2 border-solid border-primary-500 dark:border-primary-500" />
             </div>
          </div>
          <ScrollToTop />

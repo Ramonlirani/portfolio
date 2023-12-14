@@ -1,6 +1,6 @@
 export const SOCIAL_LINKS = [
    {
-      link: "https://twitter.com/dhavalCode",
+      link: "https://twitter.com/RLirani",
       icon: "akar-icons:twitter-fill",
    },
    {
@@ -8,7 +8,7 @@ export const SOCIAL_LINKS = [
       icon: "akar-icons:github-fill",
    },
    {
-      link: "https://linkedin.com/in/dhavalcode",
+      link: "https://www.linkedin.com/in/ramon-lirani-8941a0193/",
       icon: "akar-icons:linkedin-fill",
    },
 ];

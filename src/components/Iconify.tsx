@@ -1,9 +1,8 @@
 import React from "react";
 import { Icon } from "@iconify/react";
 
-// ----------------------------------------------------------------------
 interface IconifyProps {
-   classes: string;
+   classes?: string;
    icon: string;
 }
 

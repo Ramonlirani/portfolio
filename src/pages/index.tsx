@@ -5,6 +5,7 @@ import MainLayout from "../layouts/MainLayout";
 
 import { documentTitle } from "../mocks/profile";
 import HomeHero from "../sections/HomeHero";
+import Skills from "@/sections/Skills";
 
 // ------------------------------------------------
 
@@ -19,7 +20,7 @@ export default function Home() {
       <MainLayout meta={meta}>
          <HomeHero />
          {/* Skill Section  */}
-         {/* <Skills /> */}
+         <Skills />
          {/* Works Section  */}
          {/* <Works /> */}
          {/* Contact Section  */}

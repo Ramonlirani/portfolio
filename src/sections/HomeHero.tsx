@@ -1,10 +1,14 @@
 "use client";
+import { useContext } from "react";
 import { Typewriter } from "react-simple-typewriter";
-import { HERO_TITLES } from "../mocks/profile";
+
+//components
 import SocialLinks from "@/components/social/SocialLinks";
 import { ScrollContext } from "../context/ScrollContext";
 import ScrollToTop from "../components/ScrollToTop";
-import { useContext } from "react";
+
+//mocks
+import { HERO_TITLES } from "../mocks/profile";
 
 export default function HomeHero() {
    const { isScroll, jumpToDown } = useContext(ScrollContext);

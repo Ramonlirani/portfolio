@@ -27,7 +27,8 @@
       "**/*.ts",
       "**/*.tsx",
       ".next/types/**/*.ts",
-      "src/app/hooks/useDarkMode.js"
+      "src/app/hooks/useDarkMode.js",
+      "src/mocks/projects.js"
    ],
    "exclude": ["node_modules"]
 }

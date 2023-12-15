@@ -21,10 +21,10 @@ import backendAnimation from "../mocks/lottie/backend.json";
 export default function Skills() {
    return (
       <>
-         <section className="container mx-auto text-center">
+         <section className="container mx-auto text-center pb-14">
             <HeadingAnimate>
                <h2 className="mb-5 font-lato text-3xl font-semibold text-primary-700 dark:text-primary-300 sm:text-4xl">
-                  What i do
+                  What I do
                </h2>
             </HeadingAnimate>
 
@@ -137,7 +137,7 @@ export default function Skills() {
                </div>
             </LoadAnimate>
          </section>
-         <div id="works" />
+         <div id="projects" />
       </>
    );
 }

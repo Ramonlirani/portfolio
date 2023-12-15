@@ -1,14 +1,19 @@
-// ----------------------------------------------------------------------
 "use client";
 import { createContext, useEffect, useState } from "react";
 
-const initialState = {
+interface ScrollState {
+   isScroll: boolean;
+   jumpToTop: () => void;
+   jumpToDown: () => void;
+}
+
+const initialState: ScrollState = {
    isScroll: false,
+   jumpToTop: () => {},
+   jumpToDown: () => {},
 };
 
 const ScrollContext = createContext(initialState);
-
-// ----------------------------------------------------------------------
 
 interface ScrollProviderProps {
    children: React.ReactNode;

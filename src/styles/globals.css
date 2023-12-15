@@ -30,10 +30,10 @@ html {
    border-radius: 7px;
 }
 ::-webkit-scrollbar-thumb:hover {
-   background: rgba(255, 82, 119);
+   background: #22c55e;
 }
 ::-webkit-scrollbar-thumb:active {
-   background: rgba(255, 82, 119);
+   background: #22c55e;
 }
 ::-webkit-scrollbar-track {
    background: #383838;
@@ -50,12 +50,12 @@ html {
    background: transparent;
 }
 
-#works-tab {
+#projects-tab {
    overflow-x: scroll;
    scrollbar-width: none !important;
 }
 
-#works-tab::-webkit-scrollbar {
+#projects-tab::-webkit-scrollbar {
    display: none !important;
 }
 

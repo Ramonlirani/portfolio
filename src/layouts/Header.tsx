@@ -12,7 +12,7 @@ interface HeaderProps {
 }
 
 export default function Header({ darkModeEnabled, toggleMode }: HeaderProps) {
-   const { isScroll, jumpToTop } = useContext(ScrollContext);
+   const { isScroll, jumpToTop }: any = useContext(ScrollContext);
 
    return (
       <header className="container mx-auto">
@@ -40,8 +40,8 @@ export default function Header({ darkModeEnabled, toggleMode }: HeaderProps) {
             >
                <ul className="flex items-center space-x-3">
                   <li>
-                     <a href="#works" className="text-sm xs:text-base">
-                        Works
+                     <a href="#projects" className="text-sm xs:text-base">
+                        Projects
                      </a>
                   </li>
                   <li>

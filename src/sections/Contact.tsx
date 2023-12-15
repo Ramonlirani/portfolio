@@ -12,7 +12,7 @@ export default function Contact() {
                      Contact
                   </h2>
                </HeadingAnimate>
-               <LoadAnimate amount={1}>
+               <LoadAnimate amount={0}>
                   <div className="pb-6 text-center">
                      <p className="text-base leading-6 text-white">
                         You can find me on these social networks

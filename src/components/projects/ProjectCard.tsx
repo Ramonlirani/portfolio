@@ -1,9 +1,9 @@
 import React from "react";
 import Iconify from "../Iconify";
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 
 interface ProjectCardProps {
-   imgSrc: string;
+   imgSrc: StaticImageData;
    title: string;
    description?: string;
    repoLink?: string;

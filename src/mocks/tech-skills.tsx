@@ -39,7 +39,7 @@ export const FRONTEND_SKILLS = [
       label: "React Native",
       proficiency: "75%",
       icon: "tabler:brand-react-native",
-      iconClasses: "text-3xl",
+      iconClasses: "text-3xl ",
    },
    {
       label: "Material UI (mui)",
@@ -56,7 +56,13 @@ export const FRONTEND_SKILLS = [
    {
       label: "Styled Components",
       proficiency: "90%",
-      icon: "simple-icons:styledcomponents",
+      icon: "skill-icons:styledcomponents",
+      iconClasses: "text-4xl",
+   },
+   {
+      label: "Chakra UI",
+      proficiency: "90%",
+      icon: "simple-icons:chakraui",
       iconClasses: "text-4xl",
    },
    {
@@ -77,6 +83,12 @@ export const FRONTEND_SKILLS = [
       icon: "fluent:form-20-regular",
       iconClasses: "text-3xl",
    },
+   {
+      label: "Redux",
+      proficiency: "40%",
+      icon: "logos:redux",
+      iconClasses: "text-3xl",
+   },
 ];
 
 export const BACKEND_SKILLS = [
@@ -90,6 +102,12 @@ export const BACKEND_SKILLS = [
       label: "Express (Node.js Framework)",
       proficiency: "50%",
       icon: "simple-icons:express",
+      iconClasses: "text-3xl",
+   },
+   {
+      label: "Nest.js",
+      proficiency: "80%",
+      icon: "logos:nestjs",
       iconClasses: "text-3xl",
    },
    {
@@ -116,7 +134,6 @@ export const BACKEND_SKILLS = [
       icon: "vscode-icons:file-type-mongo",
       iconClasses: "text-3xl",
    },
-
    {
       label: "Docker",
       proficiency: "30%",

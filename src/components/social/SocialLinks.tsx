@@ -1,5 +1,4 @@
 import React from "react";
-import PropTypes from "prop-types";
 import Iconify from "../Iconify";
 import { SOCIAL_LINKS } from "../../mocks/profile";
 

@@ -11,6 +11,10 @@ export const SOCIAL_LINKS = [
       link: "https://www.linkedin.com/in/ramon-lirani-8941a0193/",
       icon: "akar-icons:linkedin-fill",
    },
+   {
+      link: "https://www.twitch.tv/ramonstito",
+      icon: "ri:twitch-fill",
+   },
 ];
 
 export const HERO_TITLES = [

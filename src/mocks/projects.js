@@ -122,7 +122,7 @@ export const PROJECTS = [
    },
    {
       imgSrc: animaisfantasticos,
-      title: "Animais fantásticos - TMDB API Project",
+      title: "Animais fantásticos",
       techIcons: [
          getSkillByLabel(FRONTEND_SKILLS, "HTML"),
          getSkillByLabel(FRONTEND_SKILLS, "CSS"),

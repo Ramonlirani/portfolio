@@ -121,20 +121,6 @@ export const PROJECTS = [
       category: [PROJECT_CATEGORY.FULL_STACK],
    },
    {
-      imgSrc: animaisfantasticos,
-      title: "Animais fantásticos",
-      techIcons: [
-         getSkillByLabel(FRONTEND_SKILLS, "HTML"),
-         getSkillByLabel(FRONTEND_SKILLS, "CSS"),
-         getSkillByLabel(FRONTEND_SKILLS, "Javascript"),
-      ],
-      description:
-         "This project was from a JavaScript course Complete ES6 from Origamid, it's just a landing page.",
-      repoLink: "https://github.com/Ramonlirani/AnimaisFantasticos",
-      sourceLink: "",
-      category: [PROJECT_CATEGORY.FRONT_ENT],
-   },
-   {
       imgSrc: BlogNubank,
       title: "BlogNubank - University Project",
       techIcons: [
